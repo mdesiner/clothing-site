@@ -1,0 +1,372 @@
+body{
+    background-color: #F7F9FA;
+}
+.cont{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sub_nav{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+#navtext{
+    display: flex;
+}
+
+#text{
+    margin-left: 30px;
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size:16px;
+}
+
+#textd{
+    margin-left: 30px;
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size:16px;
+}
+
+#nav_icon{
+    display: flex;
+    align-items: center;
+}
+
+#icon{
+    margin-left: 20px;
+}
+
+#contry{
+    margin-left: 20px;
+   
+}
+
+select{
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #CDE8F5;
+    border: 0px;
+    border-radius: 50px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+
+.store-list1{
+    margin-top: 40px;
+}
+
+#catogary1{
+    height: 60px;
+    width: 163px;
+    background-color: #038DCE;
+    border-radius: 10px;
+}
+
+#cato-info{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#catogarytxt{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+#catogary2{
+    height: 60px;
+    width: 163px;
+    background-color: #DADADA;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#catogarytxt2{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+
+#protxt {
+    text-align: center;
+}
+
+#protxt1{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+    padding-top: 10px;
+}
+
+#proprice{
+    align-items: center;
+    padding-top: 10px;
+}
+
+#protxt2{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+#protxt3{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #5E5E5E;
+    padding-top: 10px;
+    
+}
+
+.storearrivalslist{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.storearrivalslist2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* <!-- Detail View --> */
+
+.detailview{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detailviewtxt {
+    width: 420px;
+}
+
+#viewtxt1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#viewtxt2{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #5E5E5E;
+    margin-top: 20px;
+}
+
+#viewtxt3{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #038DCE;
+    margin-top: 20px;
+}
+
+#detailviewtxt{
+    width: 250px;
+}
+
+
+
+#c1button {
+    background-color: #000000;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: white;
+    border-radius: 30px;
+    border: 0px;
+    margin-top: 32px;
+}    
+
+button#c2button {
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: white;
+    border-radius: 30px;
+    border: 0px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+.arrivals{
+    margin-top: 40px;
+}
+
+.arrivalslist{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dproduct1{
+    width: 260px;
+    
+}
+
+#dprotxt1{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+    padding-top: 10px;
+}
+
+#dproprice{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+#dprotxt2{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+#dprotxt3{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+    padding-left: 8px;
+    text-decoration: line-through;
+}
+
+
+
+/* <!-- flutter --> */
+
+.flutter{
+    height: 364px;
+    background-color: black;
+    margin-top: 32px;
+}
+
+.fluttertxt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1{
+    padding-top: 40px;
+}
+
+#txt1{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#address{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#email{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#phone{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+.part2{
+    padding-top: 40px;
+    width: 250px;
+}
+
+#txt2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#txt2sub{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 26px;
+}
+
+.part3{
+    padding-top: 40px;
+}
+
+
+.part4{
+    padding-top: 40px;
+}
+
+#playstore{
+    margin-top: 30px;
+}
+
+#appstore{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+#followicon{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

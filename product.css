@@ -1,0 +1,557 @@
+body{
+    background-color: #F7F9FA;
+}
+.cont{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sub_nav{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+#navtext{
+    display: flex;
+}
+
+#text{
+    margin-left: 30px;
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size:16px;
+}
+
+#nav_icon{
+    display: flex;
+    align-items: center;
+}
+
+#icon{
+    margin-left: 20px;
+}
+
+#contry{
+    margin-left: 20px;
+   
+}
+
+select{
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #CDE8F5;
+    border: 0px;
+    border-radius: 50px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* <!-- product Page --> */
+
+
+.catelog{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catelogimage {
+    width: 570px;
+}
+
+#cimgae {
+    text-align: center;
+}
+
+#moreimage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#cbutton {
+    text-align: center;
+}
+
+#c1button {
+    background-color: #000000;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 30px;
+    border: 0px;
+    margin-top: 32px;
+}    
+
+button#c2button {
+    background-color: black;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 30px;
+    border: 0px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.cateloginfo {
+    width: 570px;
+}
+
+.catelog-profile {
+    display: flex;
+    align-items: center;
+}
+
+#Cate-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #8080805c;
+    border-radius: 100%;
+}
+
+#Cate-txt {
+    margin-left: 10px;
+}
+
+#Cate-txt1 {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#Cate-txt2 {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.cate-titel {
+    margin-top: 40px;
+}
+
+#txt-titel {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#cate-price {
+    display: flex;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+#cate-price1{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: red;
+}
+
+#cate-price2 {
+    text-decoration-line: line-through;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    color: #858585;
+}
+
+#line{
+    height: 1px;
+    background-color: #E8EAEB;
+    margin-top: 40px;
+}
+
+.size{
+    margin-top: 30px
+}
+
+.sizetxt{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.sizebutton{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.size-s{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid;
+    color: #038DCE;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.size-m{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid;
+    color: #858585;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.size-xxxl{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid;
+    color: #D5D6D7;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.color{
+    margin-top: 30px;
+}
+
+.colorbutton{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.colorred{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 48px;
+    padding-right: 48px;
+    border: 2px solid;
+    color: #038DCE;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.coloryello{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid;
+    color: #858585;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.addtocardbutton{
+    margin-top: 30px;
+}
+
+.addtocard{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 188px;
+    padding-right: 188px;
+    border-radius: 30px;
+    background-color: #038DCE;
+    border: 0px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+}
+
+.des_he{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.des_txt{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Descriptiontxt{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+
+
+.arrivals{
+    margin-top: 32px;
+}
+
+.arrivalslist{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#product1{
+    width: 260px;
+    
+}
+
+#protxt1{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+    padding-top: 10px;
+}
+
+#proprice{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+#protxt2{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+#protxt3{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+    padding-left: 8px;
+    text-decoration: line-through;
+}
+
+
+/* <!-- flutter --> */
+
+.flutter{
+    height: 364px;
+    background-color: black;
+    margin-top: 32px;
+}
+
+.fluttertxt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1{
+    padding-top: 40px;
+}
+
+#txt1{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#address{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#email{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#phone{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+.part2{
+    padding-top: 40px;
+    width: 250px;
+}
+
+#txt2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#txt2sub{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 26px;
+}
+
+.part3{
+    padding-top: 40px;
+}
+
+
+.part4{
+    padding-top: 40px;
+}
+
+#playstore{
+    margin-top: 30px;
+}
+
+#appstore{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+#followicon{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* <!-- redio Button --> */
+
+
+#sizetxt{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.size-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+  
+#size_1 {
+    opacity: 100;
+    position: fixed;
+    width: 0
+} 
+
+#size_2 {
+    opacity: 100;
+    position: fixed;
+    width: 0
+}
+
+#size_3 {
+    opacity: 100;
+    position: fixed;
+    width: 0
+}
+
+#size_4 {
+    opacity: 100;
+    position: fixed;
+    width: 0
+}
+
+#size_5 {
+    opacity: 100;
+    position: fixed;
+    width: 0
+}
+
+#size_6 {
+    opacity: 100;
+    position: fixed;
+    width: 0
+}
+
+label {
+    padding: 10px 30px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #858585;
+    border-radius: 30px;
+}
+
+label:hover{
+    color: #038DCE;
+    border-color: #038DCE;
+}
+
+input:focus+label{
+    color: #038DCE;
+    border-color: #038DCE;
+}
+
+input:checked+label {
+    color: #038DCE;
+    border-color: #038DCE;
+    
+}
+
+
+.color-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#color_1 {
+    opacity: 100;
+    position: fixed;
+    width: 0
+} 
+
+#color_2 {
+    opacity: 100;
+    position: fixed;
+    width: 0
+}
+
+#color_3 {
+    opacity: 100;
+    position: fixed;
+    width: 0
+}
+
+#color_4 {
+    opacity: 100;
+    position: fixed;
+    width: 0
+}

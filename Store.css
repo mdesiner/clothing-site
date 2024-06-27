@@ -1,0 +1,588 @@
+body{
+    background-color: #F7F9FA;
+}
+.cont{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sub_nav{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+#navtext{
+    display: flex;
+}
+
+#text{
+    margin-left: 30px;
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size:16px;
+}
+
+#texts{
+    margin-left: 30px;
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size:16px;
+}
+
+#nav_icon{
+    display: flex;
+    align-items: center;
+}
+
+#icon{
+    margin-left: 20px;
+}
+
+#contry{
+    margin-left: 20px;
+   
+}
+
+select{
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #CDE8F5;
+    border: 0px;
+    border-radius: 50px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* Store  */
+
+.searchbar{
+    height: 54px;
+    margin-top: 20px;
+    text-align: -webkit-right;
+    align-content: center;
+}
+
+.liveheding{
+    display: flex;
+    justify-content: space-between;
+}
+
+#livetext{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    align-content: center;
+}
+
+#viewall{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(51, 51, 51, 80%);
+    align-content: center;
+}
+
+#searchbg{
+    height: 34px;
+    width: 326px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+#searchtxt{
+    margin-left: 10px;
+    color: #828282;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#searchicon{
+    margin-left: 10px;
+}
+
+/* <!-- popular store --> */
+
+.store1{
+    display: flex;
+    justify-content: space-between;
+    height: 404px;
+    margin-top: 30px;
+}
+
+.popularstore{
+    margin-top: 32px;
+}
+
+#s1{
+    background-image: url(s1.png);
+    width: 453px;
+    height: 188px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#s2{
+    background-image: url(s2.png);
+    width: 453px;
+    height: 188px;
+    border-radius: 10px;
+    margin-top: 30px;
+    position: relative;
+}
+
+#s3{
+    background-image: url(store3.png);
+    width: 306px;
+    height: 404px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#s4{
+    background-image: url(s4.png);
+    width: 306px;
+    height: 404px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#storetxt{
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-size: medium;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+
+#s5{
+    background-image: url(s2.1.png);
+    width: 306px;
+    height: 404px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#s6{
+    background-image: url(s2.2.png);
+    width: 306px;
+    height: 404px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#s7{
+    background-image: url(s2.3.png);
+    width: 453px;
+    height: 188px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#s8{
+    background-image: url(s2.4.png);
+    width: 453px;
+    height: 188px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+/* <!-- View store --> */
+
+
+.sbanner{
+    height: 465px;
+    background-image: url(store\ banner.png);
+    margin-top: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.na{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#social1{
+    background-image: url(social1.png);
+    width: 260px;
+    height: 500px;
+}
+
+#social2{
+    background-image: url(social2.png);
+    width: 260px;
+    height: 500px;
+}
+
+#social3{
+    background-image: url(social3.png);
+    width: 260px;
+    height: 500px;
+}
+
+#social4{
+    background-image: url(social4.png);
+    width: 260px;
+    height: 500px;
+}
+
+#socialtxt{
+    position: relative;
+    left: 20px;
+    top: 443px;
+}
+
+#socialtxt1{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#socialtxt2{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+}
+
+#natxt1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#natxt2{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.bview{
+    margin-top: 0px;
+    border: 2px solid;
+    background-color: transparent;
+    color: #038DCE;
+    padding-left: 20px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-right: 20px;
+}    
+
+/* <!-- Talk to store --> */
+
+.talktxt{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.talkprofile{
+    margin-top: 30px;
+}
+
+.talkprofile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tprofile{
+    display: flex;
+    align-items: center;
+}
+
+#profileicon{
+    height: 60px;
+    width: 60px;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+#profiletxt{
+    margin-left: 20px;
+}
+
+#profiletxt1{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#profiletxt2{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 8px
+}
+
+.tbutton{
+    display: flex;
+}
+
+.tbutton1{
+    margin-top: 0px;
+    padding-left: 55px;
+    padding-top: 14px;
+    padding-right: 55px;
+    padding-bottom: 14px;
+    height: 50px;
+    border-radius: 8px;
+    color: #038DCE;
+    background-color: #DADADA;
+}
+
+.tbutton2{
+    margin-top: 0px;
+    padding-left: 55px;
+    padding-top: 14px;
+    padding-right: 55px;
+    padding-bottom: 14px;
+    height: 50px;
+    border-radius: 8px;
+    color: #038DCE;
+    background-color: #DADADA;
+    margin-left: 30px;
+}
+
+#line{
+    height: 1px;
+    background-color: #E8EAEB;
+    margin-top: 40px;
+}
+
+.slist{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#catogary1{
+    height: 60px;
+    width: 163px;
+    background-color: #038DCE;
+    border-radius: 10px;
+}
+
+#cato-info{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#catogarytxt{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+#catogary2{
+    height: 60px;
+    width: 163px;
+    background-color: #DADADA;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#catogarytxt2{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.store-list1{
+    width: 1000px;
+}
+
+#protxt1{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+    padding-top: 10px;
+}
+
+#proprice{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+#protxt2{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+#protxt3{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: black;
+    padding-left: 8px;
+    text-decoration: line-through;
+}
+
+.storearrivalslist{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.storearrivalslist2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: black;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 30px;
+    border: 0px;
+    margin-top: 30px;
+}
+
+
+/* <!-- flutter --> */
+
+.flutter{
+    height: 364px;
+    background-color: black;
+    margin-top: 32px;
+}
+
+.fluttertxt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1{
+    padding-top: 40px;
+}
+
+#txt1{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#address{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#email{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#phone{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+.part2{
+    padding-top: 40px;
+    width: 250px;
+}
+
+#txt2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#txt2sub{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 26px;
+}
+
+.part3{
+    padding-top: 40px;
+}
+
+
+.part4{
+    padding-top: 40px;
+}
+
+#playstore{
+    margin-top: 30px;
+}
+
+#appstore{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+#followicon{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}

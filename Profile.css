@@ -1,0 +1,93 @@
+body{
+    background-color: #F7F9FA;
+}
+.cont{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sub_nav{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+#navtext{
+    display: flex;
+}
+
+#text{
+    margin-left: 30px;
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size:16px;
+}
+
+
+
+#nav_icon{
+    display: flex;
+    align-items: center;
+}
+
+#icon{
+    margin-left: 20px;
+}
+
+#contry{
+    margin-left: 20px;
+   
+}
+
+select{
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #CDE8F5;
+    border: 0px;
+    border-radius: 50px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+#cbutton{
+   text-align: end;
+   margin-top: 30px;
+}
+
+#c1button {
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color:#038dce;
+    border-radius: 30px;
+    border: solid;
+    border-color: #038dce;
+    display: inline-flex;
+}    
+
+button#c2button {
+    background-color: transparent;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: #038dce;
+    border-radius: 30px;
+    border: solid;
+    margin-left: 20px;
+    border-color: #038dce;
+    display: inline-flex;
+}
+
+#buttonimg{
+    margin-right: 10px;
+}

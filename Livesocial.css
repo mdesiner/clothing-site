@@ -1,0 +1,297 @@
+body{
+    background-color: #F7F9FA;
+}
+.cont{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sub_nav{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+#navtext{
+    display: flex;
+}
+
+#text{
+    margin-left: 30px;
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size:16px;
+}
+
+#textl{
+    margin-left: 30px;
+    align-content: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size:16px;
+}
+
+#nav_icon{
+    display: flex;
+    align-items: center;
+}
+
+#icon{
+    margin-left: 20px;
+}
+
+#contry{
+    margin-left: 20px;
+   
+}
+
+select{
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #CDE8F5;
+    border: 0px;
+    border-radius: 50px;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Live Social  */
+
+.social{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#socialtxt{
+    position: relative;
+    left: 30px;
+    bottom: 70px;
+}
+
+#socialtxt1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+#socialtxt2{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+
+
+
+/* <!-- Video player --> */
+
+.videoplay{
+    display: flex;
+    justify-content: space-between;
+    height: 856px;
+    align-items: center;
+    margin-top: 32px;
+}
+
+#videoscreen{
+    background-image: url(Video.gif.gif);
+    width: 451px;
+    height: 856px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.vprofile{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+#vtxt{
+    margin-left: 10px;
+}
+
+#vtxt1{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#vtxt2{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 2px;
+}
+
+.vbottom {
+    margin-right: 30px;
+    margin-left: 30px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.vbottomimage {
+    text-align: end;
+}
+
+.vbottombar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 391px;
+    margin-top: 30px;
+}    
+
+#bottomicon{
+    width: 50px;
+    height: 50px;
+    background-color: #00000030;
+    backdrop-filter: blur(14px);
+    border-radius: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.vbutton {
+    margin-top: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+button{
+    background-color: black;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border-radius: 30px;
+    border: 0px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+/* <!-- flutter --> */
+
+.flutter{
+    height: 364px;
+    background-color: black;
+    margin-top: 32px;
+}
+
+.fluttertxt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1{
+    padding-top: 40px;
+}
+
+#txt1{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#address{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#email{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+#phone{
+    color: white;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+
+.part2{
+    padding-top: 40px;
+    width: 250px;
+}
+
+#txt2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#txt2sub{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 26px;
+}
+
+.part3{
+    padding-top: 40px;
+}
+
+
+.part4{
+    padding-top: 40px;
+}
+
+#playstore{
+    margin-top: 30px;
+}
+
+#appstore{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+#followicon{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
